@@ -1,0 +1,51 @@
+.photo {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-width: 4px;
+  border-style: solid;
+  border-color:rgb(76, 143, 211);
+}
+
+.card {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+.card:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.text {
+  font-family: Bitter;
+  text-align: center; 
+  width: 320px;
+  
+}
+.resume-button {
+  background-color:rgb(76, 143, 211);
+  color: white;
+  border: none;
+  height: 72px;
+  width: 140px;
+  border-radius: 36px;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.30);
+  cursor: pointer;
+}
